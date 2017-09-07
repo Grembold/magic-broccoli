@@ -14,10 +14,10 @@ theme = "aerial"
 
 [[params.social]]
   medium = "Doc"
-  icon = "twitter"
+  icon = "file-text-o"
   link = "http://doc.blume.goip.de"
 
 [[params.social]]
   medium = "Develop"
-  icon = "facebook"
+  icon = "cogs"
   link = "http://dev.blume.goip.de"
