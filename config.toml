@@ -15,24 +15,9 @@ theme = "aerial"
 [[params.social]]
   medium = "Doc"
   icon = "twitter"
-  link = "doc.blume.goip.de"
+  link = "http://doc.blume.goip.de"
 
 [[params.social]]
-  medium = "Facebook"
+  medium = "Develop"
   icon = "facebook"
-  link = "#"
-
-[[params.social]]
-  medium = "Dribbble"
-  icon = "dribbble"
-  link = "#"
-
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "#"
-
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "#"
+  link = "http://dev.blume.goip.de"
