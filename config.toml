@@ -1,3 +1,38 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "/"
+languageCode = "de-de"
+
+title = "Familie-Blume"
+theme = "aerial"
+
+[params]
+  name = "Famile Blume"
+  about = "Sicherheits Chef &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Nie darum gebeten"
+  copyright = "OBlume"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = "a"
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Doc"
+  icon = "twitter"
+  link = "doc.blume.goip.de"
+
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "Dribbble"
+  icon = "dribbble"
+  link = "#"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "#"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "#"
