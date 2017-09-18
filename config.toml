@@ -15,9 +15,19 @@ theme = "aerial"
 [[params.social]]
   medium = "Doc"
   icon = "file-text-o"
-  link = "http://doc.blume.goip.de"
+  link = "https://doc.blume.goip.de"
 
 [[params.social]]
-  medium = "Develop"
-  icon = "cogs"
-  link = "http://dev.blume.goip.de"
+  medium = "GitLab"
+  icon = "gitlab"
+  link = "https://dev.blume.goip.de/gitlab/"
+
+[[params.social]]
+  medium = "QNAP"
+  icon = "server"
+  link = "https://dev.blume.goip.de/"
+
+[[params.sozial]]
+  medium = "RPi Health check"
+  icon = "heartbeat"
+  link = "https://dev.blume.goip.de/rpimonitor/"
