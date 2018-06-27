@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-	<meta name="generator" content="Hugo 0.26" />
+	<meta name="generator" content="Hugo 0.40.3" />
 		<title>Familie-Blume</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,9 +13,33 @@
     
      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
      <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
+     
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){ 
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "#8ec760",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "content": {
+    "message": "Diese Website verwendet Cookies zu Werbezwecken und zur Verbesserung des Angebots."
+  }
+})});
+</script>
+
 	</head>
-	<body class="loading">
+        <body class="loading">
 		<div id="wrapper">
 			<div id="bg"  class="no-scroll" ></div>
 			<div id="overlay"></div>
@@ -33,6 +57,14 @@
 								<li><a href="https://dev.blume.goip.de/gitlab/" class="icon fa-gitlab"><span class="label">GitLab</span></a></li>
 								
 								<li><a href="https://dev.blume.goip.de/" class="icon fa-server"><span class="label">QNAP</span></a></li>
+								
+								<li><a href="https://dev.blume.goip.de/rpimonitor/status.html" class="icon fa-heartbeat"><span class="label">RPi Health check</span></a></li>
+								
+								<li><a href="http://server1:8080" class="icon fa-heartbeat"><span class="label">RPi Health check</span></a></li>
+								
+								<li><a href="http://server1:8888" class="icon fa-heartbeat"><span class="label">RPi Health check</span></a></li>
+								
+								<li><a href="https://haselmaus.spdns.de:23443" class="icon fa-header"><span class="label">Haselmaus</span></a></li>
 								
 							</ul>
 						</nav>
