@@ -27,7 +27,22 @@ theme = "aerial"
   icon = "server"
   link = "https://dev.blume.goip.de/"
 
-[[params.sozial]]
+[[params.social]]
   medium = "RPi Health check"
   icon = "heartbeat"
-  link = "https://dev.blume.goip.de/rpimonitor/"
+  link = "https://dev.blume.goip.de/rpimonitor/status.html"
+
+[[params.social]]
+  medium = "RPi Health check"
+  icon = "heartbeat"
+  link = "http://server1:8080"
+
+[[params.social]]
+  medium = "RPi Health check"
+  icon = "heartbeat"
+  link = "http://server1:8888"
+
+[[params.social]]
+  medium = "Haselmaus"
+  icon = "header"
+  link = "https://haselmaus.spdns.de:23443"
